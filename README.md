@@ -9,6 +9,7 @@
 
 ## Link al deploy unificado
 
+https://pfo2-landing-page.vercel.app/
 
 ## Prompt exacto utilizado
 
