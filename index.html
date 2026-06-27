@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portada de acceso al prompt y a las landing pages generadas por dos agentes."
+    />
+    <title>Acceso | Comparativa de Agentes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Trabajo practico de facultad</p>
+        <h1 id="page-title">Interfaz de acceso a la comparativa de landing pages</h1>
+        <p class="intro">
+          Portada inicial con el prompt utilizado y las dos landing pages generadas por agentes de
+          desarrollo para comparar su resolucion autonoma.
+        </p>
+      </section>
+
+      <section class="access-grid" aria-label="Accesos directos">
+        <a class="access-card" href="prompt.html">
+          <span class="card-number">Link 1</span>
+          <span class="card-copy">
+            <h2>Texto plano del prompt utilizado</h2>
+            <p>Consulta el prompt completo que se uso como instruccion inicial para ambos agentes.</p>
+          </span>
+          <span class="card-action">Abrir prompt -></span>
+        </a>
+
+        <a class="access-card" href="opencode/index.html">
+          <span class="card-number">Link 2</span>
+          <span class="card-copy">
+            <h2>Landing Page del Primer Agente</h2>
+            <p>Version generada en la carpeta <strong>opencode</strong>.</p>
+          </span>
+          <span class="card-meta">
+            <span><strong>Agente:</strong> Opencode</span>
+            <span><strong>Modelo:</strong> DeepSeek V4 Flash Free</span>
+          </span>
+          <span class="card-action">Ver landing -></span>
+        </a>
+
+        <a class="access-card" href="codex/index.html">
+          <span class="card-number">Link 3</span>
+          <span class="card-copy">
+            <h2>Landing Page del Segundo Agente</h2>
+            <p>Version generada en la carpeta <strong>codex</strong>.</p>
+          </span>
+          <span class="card-meta">
+            <span><strong>Agente:</strong> Codex</span>
+            <span><strong>Modelo:</strong> GPT 5.5</span>
+          </span>
+          <span class="card-action">Ver landing -></span>
+        </a>
+      </section>
+
+      <footer>
+        <p>&copy; 2026 - Presentacion academica de comparativa entre agentes.</p>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NovaTech — Soluciones digitales innovadoras para impulsar tu negocio al siguiente nivel.">
+  <title>NovaTech — Innovación Digital</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo" aria-label="NovaTech inicio">
+        <svg class="logo__icon" width="36" height="36" viewBox="0 0 36 36" fill="none">
+          <rect width="36" height="36" rx="8" fill="#2563eb"/>
+          <path d="M10 26V10h6l4 8 4-8h6v16h-5V17l-3.5 7h-3L15 17v9h-5z" fill="#fff"/>
+        </svg>
+        <span class="logo__text">Nova<span class="logo__accent">Tech</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#hero" class="nav__link">Inicio</a></li>
+          <li><a href="#about" class="nav__link">Nosotros</a></li>
+          <li><a href="#services" class="nav__link">Servicios</a></li>
+          <li><a href="#testimonials" class="nav__link">Testimonios</a></li>
+          <li><a href="#contact" class="nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__badge">Transformación Digital</p>
+          <h1 class="hero__title">Innovación que<br><span class="text-accent">impulsa tu negocio</span></h1>
+          <p class="hero__description">
+            Creamos soluciones digitales a medida que potencian tu marca, optimizan procesos y conectan
+            con tus clientes. Tecnología de punta, resultados reales.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Solicitar demo</a>
+            <a href="#services" class="btn btn--outline">Ver servicios</a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__shape hero__shape--1"></div>
+          <div class="hero__shape hero__shape--2"></div>
+          <div class="hero__shape hero__shape--3"></div>
+          <div class="hero__shape hero__shape--4"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Sobre <span class="text-accent">Nosotros</span></h2>
+          <p class="section-header__subtitle">Conoce nuestra historia y propósito</p>
+        </div>
+        <div class="about__grid">
+          <div class="about__text">
+            <p>
+              En <strong>NovaTech</strong> creemos que la tecnología debe ser un puente entre las ideas y
+              su impacto real. Fundada en 2020 por un equipo de ingenieros apasionados, nuestra misión es
+              democratizar el acceso a soluciones digitales de alto rendimiento para empresas de todos los
+              tamaños.
+            </p>
+            <p>
+              Combinamos experiencia en desarrollo web, inteligencia artificial y diseño centrado en el
+              usuario para crear productos que no solo se ven bien, sino que generan resultados
+              medibles. Cada línea de código que escribimos está pensada para escalar, perdurar y
+              transformar.
+            </p>
+          </div>
+          <ul class="about__stats">
+            <li class="about__stat">
+              <span class="about__stat-number" data-target="45">0</span>
+              <span class="about__stat-label">Proyectos entregados</span>
+            </li>
+            <li class="about__stat">
+              <span class="about__stat-number" data-target="30">0</span>
+              <span class="about__stat-label">Clientes activos</span>
+            </li>
+            <li class="about__stat">
+              <span class="about__stat-number" data-target="98">0</span>
+              <span class="about__stat-label">% Satisfacción</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Nuestros <span class="text-accent">Servicios</span></h2>
+          <p class="section-header__subtitle">Soluciones integrales para tu transformación digital</p>
+        </div>
+        <div class="services__grid">
+          <article class="card">
+            <div class="card__icon card__icon--1" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect x="2" y="6" width="28" height="20" rx="3" stroke="currentColor" stroke-width="2" fill="none"/>
+                <line x1="12" y1="26" x2="20" y2="26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="16" y1="6" x2="16" y2="2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Desarrollo Web</h3>
+            <p class="card__text">
+              Sitios y aplicaciones web ultrarrápidos, accesibles y optimizados para conversión.
+              Tecnología moderna, resultados excepcionales.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card__icon card__icon--2" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M16 10v6l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="16" cy="16" r="3" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Automatización</h3>
+            <p class="card__text">
+              Optimiza procesos repetitivos con flujos inteligentes. Reducción de costos operativos
+              y mejora en la eficiencia de tu equipo.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card__icon card__icon--3" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M6 26L16 6l10 20H6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/>
+                <circle cx="16" cy="18" r="2" fill="currentColor"/>
+                <line x1="16" y1="14" x2="16" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card__title">UX / UI Design</h3>
+            <p class="card__text">
+              Interfaces centradas en el usuario que combinan estética, usabilidad y accesibilidad
+              para experiencias digitales memorables.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card__icon card__icon--4" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M4 22c0-4 3-7 7-7s7 3 7 7" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M14 22c0-4 3-7 7-7s7 3 7 7" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M24 22c0-4 3-7 7-7" stroke="currentColor" stroke-width="2" fill="none"/>
+                <circle cx="11" cy="11" r="3" stroke="currentColor" stroke-width="2" fill="none"/>
+                <circle cx="21" cy="11" r="3" stroke="currentColor" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Consultoría IA</h3>
+            <p class="card__text">
+              Integración de inteligencia artificial en tus procesos de negocio. Análisis predictivo,
+              chatbots y modelos personalizados.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Lo que dicen <span class="text-accent">nuestros clientes</span></h2>
+          <p class="section-header__subtitle">Opiniones reales de quienes confiaron en nosotros</p>
+        </div>
+        <div class="testimonials__grid">
+          <blockquote class="testimonial">
+            <div class="testimonial__stars" aria-label="5 de 5 estrellas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="testimonial__text">
+              "Trabajar con NovaTech transformó nuestra presencia digital. El rediseño de nuestro sitio
+              web duplicó las conversiones en menos de tres meses. Altamente recomendados."
+            </p>
+            <footer class="testimonial__author">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='24' fill='%232563eb' opacity='0.15'/%3E%3Ccircle cx='24' cy='19' r='6' fill='%232563eb' opacity='0.5'/%3E%3Cpath d='M12 38c0-6.627 5.373-12 12-12s12 5.373 12 12' fill='%232563eb' opacity='0.3'/%3E%3C/svg%3E"
+                   alt="" class="testimonial__avatar" width="48" height="48">
+              <cite class="testimonial__name">María Fernanda López</cite>
+              <span class="testimonial__role">CEO, Grupo Alianza</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <div class="testimonial__stars" aria-label="5 de 5 estrellas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="testimonial__text">
+              "La automatización que implementaron nos ahorró más de 40 horas semanales en tareas
+              administrativas. El equipo es profesional, creativo y extremadamente eficiente."
+            </p>
+            <footer class="testimonial__author">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='24' fill='%232563eb' opacity='0.15'/%3E%3Ccircle cx='24' cy='19' r='6' fill='%232563eb' opacity='0.5'/%3E%3Cpath d='M12 38c0-6.627 5.373-12 12-12s12 5.373 12 12' fill='%232563eb' opacity='0.3'/%3E%3C/svg%3E"
+                   alt="" class="testimonial__avatar" width="48" height="48">
+              <cite class="testimonial__name">Carlos Mendoza</cite>
+              <span class="testimonial__role">Director de Operaciones, FinTrust</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <div class="testimonial__stars" aria-label="5 de 5 estrellas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="testimonial__text">
+              "El enfoque en UX que aplicaron a nuestra plataforma elevó la satisfacción de nuestros
+              usuarios de un 3.2 a un 4.8 en las encuestas. Un antes y un después."
+            </p>
+            <footer class="testimonial__author">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='24' fill='%232563eb' opacity='0.15'/%3E%3Ccircle cx='24' cy='19' r='6' fill='%232563eb' opacity='0.5'/%3E%3Cpath d='M12 38c0-6.627 5.373-12 12-12s12 5.373 12 12' fill='%232563eb' opacity='0.3'/%3E%3C/svg%3E"
+                   alt="" class="testimonial__avatar" width="48" height="48">
+              <cite class="testimonial__name">Ana Sofía Rivera</cite>
+              <span class="testimonial__role">CPO, EdTech Plus</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Hablemos de tu <span class="text-accent">próximo proyecto</span></h2>
+          <p class="section-header__subtitle">Completá el formulario y te responderemos en menos de 24 horas</p>
+        </div>
+        <div class="contact__grid">
+          <form class="contact__form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name" class="form-label">Nombre completo</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Ej: Juan Pérez" required autocomplete="name">
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="Ej: juan@ejemplo.com" required autocomplete="email">
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea id="message" name="message" class="form-input form-input--textarea" placeholder="Contanos en qué podemos ayudarte..." rows="5" required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+            <p class="contact__disclaimer" id="formFeedback" aria-live="polite"></p>
+          </form>
+          <div class="contact__info">
+            <div class="contact__info-item">
+              <span class="contact__info-label">Email</span>
+              <a href="mailto:hola@novatech.dev" class="contact__info-value">hola@novatech.dev</a>
+            </div>
+            <div class="contact__info-item">
+              <span class="contact__info-label">Teléfono</span>
+              <a href="tel:+525512345678" class="contact__info-value">+52 55 1234 5678</a>
+            </div>
+            <div class="contact__info-item">
+              <span class="contact__info-label">Ubicación</span>
+              <span class="contact__info-value">Ciudad de México, MX</span>
+            </div>
+            <div class="contact__info-item">
+              <span class="contact__info-label">Horario</span>
+              <span class="contact__info-value">Lun – Vie, 9:00 – 18:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="logo logo--footer" aria-label="NovaTech inicio">
+            <svg class="logo__icon" width="32" height="32" viewBox="0 0 36 36" fill="none">
+              <rect width="36" height="36" rx="8" fill="#2563eb"/>
+              <path d="M10 26V10h6l4 8 4-8h6v16h-5V17l-3.5 7h-3L15 17v9h-5z" fill="#fff"/>
+            </svg>
+            <span class="logo__text">Nova<span class="logo__accent">Tech</span></span>
+          </a>
+          <p class="footer__description">
+            Soluciones digitales innovadoras para impulsar tu negocio al siguiente nivel.
+          </p>
+        </div>
+        <div class="footer__links">
+          <h3 class="footer__heading">Navegación</h3>
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#testimonials">Testimonios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h3 class="footer__heading">Servicios</h3>
+          <ul>
+            <li><a href="#services">Desarrollo Web</a></li>
+            <li><a href="#services">Automatización</a></li>
+            <li><a href="#services">UX / UI Design</a></li>
+            <li><a href="#services">Consultoría IA</a></li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <h3 class="footer__heading">Seguinos</h3>
+          <div class="footer__social-icons">
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="GitHub">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 NovaTech. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
